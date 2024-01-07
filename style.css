@@ -80,12 +80,14 @@ ul {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
 }
 
 .lighttypes {
     display: flex;
     justify-content: space-evenly;
-
+    text-align: center;
 }
 
 .light {
