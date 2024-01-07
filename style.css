@@ -1,0 +1,52 @@
+* {
+    border: 1px solid blac;
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+}
+
+.headerbar {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    display: flex;
+}
+
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.lightheader {
+    margin-bottom: 30px;
+}
+
+.light {
+    max-width: 200px;
+}
+
