@@ -1,5 +1,5 @@
 * {
-    border: 1px solid black;
+    border: 1px solid blak;
 }
 
 body {
@@ -20,7 +20,7 @@ img {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 100px 40px 100px;
+    padding: 20px 100px;
     gap: 100px;
 }
 
