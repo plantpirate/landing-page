@@ -1,5 +1,5 @@
 * {
-    border: 1px solid blac;
+    border: 1px solid blak;
 }
 
 body {
@@ -13,15 +13,19 @@ img {
 
 ul {
   list-style-type: none;
+  font-size: 18ppx;
   margin: 0px;
   padding: 0px;
   display: flex;
+  gap: 8px;
 }
 
-.headerbar {
+.header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
 }
 
 .top {
@@ -29,8 +33,18 @@ ul {
     justify-content: space-between;
 }
 
-h1 {
+.maintext {
+    display: flex;
     margin-bottom: 0px;
+    text-align: left;
+    font-size: 48px; 
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .bottom {
