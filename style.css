@@ -9,6 +9,13 @@ body {
 img {
     width: 100px;
     height: 100px;
+    border: 1px solid #3882F6;
+}
+
+.snakelogo {
+    max-width: 100px; 
+    max-height: 100px;
+    border: 0px;
 }
 
 ul {
@@ -61,11 +68,11 @@ ul {
 .sideimage {
     width: 300px;
     height: auto;
+    border: 0px;
 }
 
 .sectiontwo {
     display: flex;
-    align-items: center;
     flex-direction: column;
 }
 
@@ -73,15 +80,16 @@ ul {
     font-size: 36px;
     font-weight: extra-bold;
     color: #1F2937;
-
 }
 
 .lighttypes {
     display: flex;
-    gap: 50px;
+    justify-content: space-evenly;
+
 }
 
 .light {
+   
     max-width: 200px;
 }
 
