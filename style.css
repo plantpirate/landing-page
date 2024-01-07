@@ -8,6 +8,19 @@ img {
     border: 1px solid #3882F6;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 40px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
 .snakelogo {
     max-width: 100px; 
     max-height: 100px;
@@ -23,25 +36,9 @@ ul {
   gap: 20px;
 }
 
-.header {
-    display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    color: #F9FAF8;
-    font-size: 24px;
-    padding: 40px;
-}
-
-.top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .bottom {
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .leftside {
@@ -64,7 +61,9 @@ ul {
     color: #E5E7EB;
 }
 
-
+.rightside  {
+    display: flex;
+}
 .sideimage {
     width: 300px;
     height: auto;
