@@ -1,5 +1,5 @@
 * {
-    border: 1px solid blak;
+    border: 1px solid back;
 }
 
 body {
@@ -20,11 +20,11 @@ img {
 
 ul {
   list-style-type: none;
-  font-size: 18ppx;
+  font-size: 18px;
   margin: 0px;
   padding: 0px;
   display: flex;
-  gap: 8px;
+  gap: 20px;
 }
 
 .header {
@@ -33,11 +33,19 @@ ul {
     background-color: #1F2937;
     color: #F9FAF8;
     font-size: 24px;
+    padding: 40px;
 }
 
 .top {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .leftside {
@@ -59,11 +67,6 @@ ul {
     color: #E5E7EB;
 }
 
-.bottom {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .sideimage {
     width: 300px;
