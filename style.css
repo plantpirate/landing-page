@@ -49,6 +49,7 @@ h1 {
 .lighttypes {
     display: flex;
 }
+
 .light {
     max-width: 200px;
 }
