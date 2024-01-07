@@ -33,16 +33,21 @@ ul {
     justify-content: space-between;
 }
 
+.leftside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .maintext {
     display: flex;
-    margin-bottom: 0px;
-    text-align: left;
     font-size: 48px; 
     font-weight: extra-bold;
     color: #F9FAF8;
 }
 
 .subtext {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
 }
@@ -53,23 +58,27 @@ ul {
     align-items: center;
 }
 
-.leftside {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 .sideimage {
     width: 300px;
     height: auto;
 }
 
+.sectiontwo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .lightheader {
-    margin-bottom: 30px;
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+
 }
 
 .lighttypes {
     display: flex;
+    gap: 50px;
 }
 
 .light {
