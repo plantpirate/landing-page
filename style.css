@@ -15,6 +15,7 @@ button {
     font-size: 16px;
     padding: 8px 16px;
 }
+
 img {
     width: 200px;
     height: 200px;
@@ -59,6 +60,7 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    gap: 5px;
 }
 
 .maintext {
@@ -68,6 +70,9 @@ ul {
     color: #F9FAF8;
 }
 
+.button {
+    border: 0px;
+}
 .subtext {
     display: flex;
     font-size: 18px;
