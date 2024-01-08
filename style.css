@@ -14,7 +14,6 @@ button {
     color: white;
     font-size: 16px;
     padding: 8px 16px;
-    border-radius: 10px;
 }
 img {
     width: 200px;
@@ -151,4 +150,5 @@ ul {
 
 .signup {
     border: 1px solid white;
+    border-radius: 10px;
 }
