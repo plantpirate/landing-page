@@ -130,6 +130,7 @@ ul {
 
 .calltoaction {
     display: flex;
+    justify-content: center;
 }
 
 .block {
