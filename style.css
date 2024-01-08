@@ -128,6 +128,15 @@ ul {
     justify-content: flex-end;
 }
 
+.calltoaction {
+    display: flex;
+}
+
 .block {
+    display: flex;
     background-color: #3882F6;
+}
+
+.initialtext {
+    display: flex;
 }
