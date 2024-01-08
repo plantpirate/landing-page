@@ -10,7 +10,11 @@ body {
 }
 
 button {
-    
+    background-color: #3882F6;
+    color: white;
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 10px;
 }
 img {
     width: 200px;
@@ -71,12 +75,6 @@ ul {
     color: #E5E7EB;
 }
 
-button {
-    background-color: #3882F6;
-    color: white;
-    font-size: 16px;
-    padding: 10px;
-}
 
 .rightside  {
     display: flex;
@@ -149,4 +147,8 @@ button {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+}
+
+.signup {
+    border: 1px solid white;
 }
