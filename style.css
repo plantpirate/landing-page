@@ -141,3 +141,10 @@ ul {
 .initialtext {
     display: flex;
 }
+
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+}
