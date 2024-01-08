@@ -127,3 +127,7 @@ ul {
     display: flex;
     justify-content: flex-end;
 }
+
+.block {
+    background-color: #3882F6;
+}
