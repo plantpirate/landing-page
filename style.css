@@ -118,12 +118,14 @@ ul {
 }
 
 .sectionthree {
+    padding: 40px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .quote {
@@ -138,6 +140,7 @@ ul {
 .calltoaction {
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .block {
@@ -154,6 +157,7 @@ ul {
     color: #F9FAF8;
     display: flex;
     justify-content: center;
+    padding: 40px;
 }
 
 .signup {
