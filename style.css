@@ -150,12 +150,13 @@ ul {
     align-items: center;
     background-color: #3882F6;
     width: 700px;
-    height: 300px;
+    height: 150px;
 }
 
 .initialtext {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .first {
