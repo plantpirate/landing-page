@@ -29,8 +29,8 @@ img {
     flex-direction: column;
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 20px 100px;
-    gap: 60px;
+    padding: 20px 120px;
+    gap: 30px;
 }
 
 .top {
@@ -87,8 +87,8 @@ ul {
 }
 
 .sideimage {
-    width: 500px;
-    height: 300px;
+    width: 300px;
+    height: auto;
     border: 0px;
 }
 
