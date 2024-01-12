@@ -118,7 +118,7 @@ ul {
     max-width: 200px;
 }
 
-.sectionthree {
+.quote {
     padding: 40px;
     background-color: #E5E7EB;
     font-size: 36px;
@@ -129,7 +129,7 @@ ul {
     padding: 40px;
 }
 
-.quote {
+.text {
     display: flex;
 }
 
